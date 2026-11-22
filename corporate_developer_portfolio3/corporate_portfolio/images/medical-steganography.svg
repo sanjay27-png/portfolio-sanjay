@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 670" role="img" aria-labelledby="title desc">
+  <title id="title">Medical Text Steganography application preview</title>
+  <desc id="desc">A healthcare-themed dashboard mockup showing protected messages, encryption, and a steganography workflow.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e8f1ff"/><stop offset="1" stop-color="#e7f7f8"/></linearGradient>
+    <linearGradient id="navy" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#102a49"/><stop offset="1" stop-color="#1c4773"/></linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#397cec"/><stop offset="1" stop-color="#245ac2"/></linearGradient>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="140%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#1f4777" flood-opacity=".13"/></filter>
+  </defs>
+  <rect width="1200" height="670" fill="url(#bg)"/>
+  <circle cx="1050" cy="70" r="110" fill="#fff" opacity=".34"/><circle cx="105" cy="585" r="140" fill="#fff" opacity=".32"/>
+  <g filter="url(#shadow)">
+    <rect x="44" y="36" width="1112" height="598" rx="20" fill="#fff"/>
+    <path d="M44 57a21 21 0 0 1 21-21h1070a21 21 0 0 1 21 21v29H44Z" fill="#f9fbfe"/>
+    <circle cx="69" cy="60" r="5" fill="#fa7777"/><circle cx="87" cy="60" r="5" fill="#f7c66b"/><circle cx="105" cy="60" r="5" fill="#54c5a4"/>
+    <text x="600" y="64" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#8292a8">MEDICAL TEXT STEGANOGRAPHY · SECURE WORKSPACE</text>
+    <rect x="44" y="86" width="207" height="548" rx="0" fill="url(#navy)"/>
+    <rect x="65" y="108" width="31" height="31" rx="9" fill="#4b8bf4"/><path d="M80.5 114v19M71 123.5h19" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+    <text x="106" y="120" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#fff">MedSecure</text><text x="106" y="134" font-family="Arial,sans-serif" font-size="8" fill="#9bb6d6">MESSAGE WORKSPACE</text>
+    <text x="66" y="177" font-family="Arial,sans-serif" font-size="9" font-weight="700" letter-spacing="1.4" fill="#7fa2c9">WORKSPACE</text>
+    <rect x="58" y="191" width="178" height="37" rx="9" fill="#2e5a8a"/>
+    <rect x="71" y="203" width="12" height="12" rx="3" fill="#a6c8ff"/><path d="M74 209h6m-3-3v6" stroke="#214773" stroke-width="1.5"/>
+    <text x="93" y="214" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#fff">Overview</text>
+    <g fill="#a9bfd8" font-family="Arial,sans-serif" font-size="11"><text x="93" y="254">Encode message</text><text x="93" y="292">Decode message</text><text x="93" y="330">Message history</text><text x="93" y="368">Account settings</text></g>
+    <g fill="none" stroke="#7899bf" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="71" y="240" width="13" height="11" rx="2"/><path d="M74 240v-3a3.5 3.5 0 0 1 7 0v3"/><path d="M72 279h12v13H72zM75 283h6m-6 4h6"/><path d="M72 317h12v13H72zM75 321h6m-6 4h6"/><circle cx="78" cy="355" r="6"/><path d="M78 352v6m-3-3h6"/></g>
+    <rect x="64" y="555" width="166" height="57" rx="10" fill="#173b62" stroke="#315b86"/><circle cx="82" cy="574" r="5" fill="#4ee0b0"/><text x="94" y="577" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#eaf4ff">SECURE SESSION</text><text x="78" y="594" font-family="Arial,sans-serif" font-size="8" fill="#a9c1db">Demo interface · sample data</text>
+    <text x="282" y="124" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1.5" fill="#2c6fd0">SECURE COMMUNICATION</text>
+    <text x="282" y="154" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#172d48">Message protection overview</text>
+    <rect x="949" y="108" width="173" height="35" rx="9" fill="#f0fbf7" stroke="#ccefe1"/><circle cx="966" cy="125" r="4" fill="#35b88e"/><text x="979" y="129" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#258465">ENCRYPTION READY</text>
+    <g>
+      <rect x="280" y="180" width="254" height="104" rx="13" fill="#f8fbff" stroke="#e2ebf7"/><rect x="296" y="196" width="34" height="34" rx="10" fill="#e3edff"/><path d="M313 202l8 4v7c0 6-8 10-8 10s-8-4-8-10v-7Z" fill="#3979e8"/><path d="M309 212l3 3 5-6" fill="none" stroke="#fff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><text x="342" y="207" font-family="Arial,sans-serif" font-size="10" fill="#73849a">ENCRYPTION METHOD</text><text x="342" y="226" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#172d48">AES encryption</text><text x="296" y="260" font-family="Arial,sans-serif" font-size="9" fill="#70829a">Encrypt before concealing the message</text>
+      <rect x="548" y="180" width="254" height="104" rx="13" fill="#f8fbff" stroke="#e2ebf7"/><rect x="564" y="196" width="34" height="34" rx="10" fill="#e1f7ef"/><path d="M575 202h12v17h-12zM578 207h6m-6 4h6m-6 4h4" fill="none" stroke="#219b7b" stroke-width="1.6" stroke-linecap="round"/><text x="610" y="207" font-family="Arial,sans-serif" font-size="10" fill="#73849a">HIDDEN PAYLOAD</text><text x="610" y="226" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#172d48">Cover text</text><text x="564" y="260" font-family="Arial,sans-serif" font-size="9" fill="#70829a">Conceal ciphertext within a text carrier</text>
+      <rect x="816" y="180" width="306" height="104" rx="13" fill="#f8fbff" stroke="#e2ebf7"/><rect x="832" y="196" width="34" height="34" rx="10" fill="#fff0dc"/><path d="M841 204h16v13h-16zM844 208h10m-10 3h7" fill="none" stroke="#d58b27" stroke-width="1.6" stroke-linecap="round"/><text x="878" y="207" font-family="Arial,sans-serif" font-size="10" fill="#73849a">MESSAGE RECORDS</text><text x="878" y="226" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#172d48">Database storage</text><text x="832" y="260" font-family="Arial,sans-serif" font-size="9" fill="#70829a">Manage sender and receiver records</text>
+    </g>
+    <rect x="280" y="305" width="842" height="166" rx="14" fill="#fbfdff" stroke="#e4ebf4"/>
+    <text x="301" y="333" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#203a58">Protection workflow</text><text x="1100" y="333" text-anchor="end" font-family="Arial,sans-serif" font-size="9" fill="#8a99aa">ILLUSTRATIVE FLOW</text>
+    <g>
+      <rect x="302" y="351" width="174" height="83" rx="10" fill="#fff" stroke="#dce7f4"/><rect x="317" y="366" width="27" height="27" rx="7" fill="#edf3ff"/><path d="M323 372h15v14h-15zM326 376h9m-9 4h9" fill="none" stroke="#3a74d4" stroke-width="1.3"/><text x="353" y="377" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#243c58">Original text</text><text x="317" y="411" font-family="Arial,sans-serif" font-size="8" fill="#8291a4">Plain message input</text>
+      <path d="M482 392h27m-7-6 7 6-7 6" fill="none" stroke="#9ab2d0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="516" y="351" width="174" height="83" rx="10" fill="#f2f7ff" stroke="#cbdcf7"/><rect x="531" y="366" width="27" height="27" rx="7" fill="#dce8ff"/><path d="M544.5 369l7 4v6c0 5-7 8-7 8s-7-3-7-8v-6Z" fill="#3a74d4"/><text x="567" y="377" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#243c58">AES encrypt</text><text x="531" y="411" font-family="Arial,sans-serif" font-size="8" fill="#8291a4">Ciphertext generated</text>
+      <path d="M696 392h27m-7-6 7 6-7 6" fill="none" stroke="#9ab2d0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="730" y="351" width="174" height="83" rx="10" fill="#f0fbf7" stroke="#c7eadf"/><rect x="745" y="366" width="27" height="27" rx="7" fill="#d9f4e9"/><path d="M752 374h13v11h-13zM755 371h7" fill="none" stroke="#238a70" stroke-width="1.5"/><text x="781" y="377" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#243c58">Hide message</text><text x="745" y="411" font-family="Arial,sans-serif" font-size="8" fill="#8291a4">Steganography step</text>
+      <path d="M910 392h27m-7-6 7 6-7 6" fill="none" stroke="#9ab2d0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="944" y="351" width="155" height="83" rx="10" fill="#fff9ef" stroke="#f2dfbd"/><rect x="959" y="366" width="27" height="27" rx="7" fill="#ffefd3"/><path d="M966 373h13v13h-13zM969 376h7m-7 4h7m-7 4h4" fill="none" stroke="#ba7b20" stroke-width="1.4"/><text x="995" y="377" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#243c58">Hidden text</text><text x="959" y="411" font-family="Arial,sans-serif" font-size="8" fill="#8291a4">Ready to store</text>
+    </g>
+    <rect x="280" y="491" width="842" height="121" rx="14" fill="#fff" stroke="#e4ebf4"/>
+    <text x="301" y="516" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#203a58">Recent message records</text><text x="1100" y="516" text-anchor="end" font-family="Arial,sans-serif" font-size="9" fill="#3974d8">VIEW ALL ↗</text>
+    <path d="M300 528h802" stroke="#edf1f7"/><g font-family="Arial,sans-serif" font-size="8" fill="#7d8ca0"><text x="303" y="545">RECIPIENT</text><text x="480" y="545">MESSAGE TYPE</text><text x="687" y="545">LAST UPDATED</text><text x="930" y="545">STATUS</text></g>
+    <g font-family="Arial,sans-serif" font-size="9" fill="#334a65"><text x="303" y="568">Demo User A</text><text x="480" y="568">Hidden text payload</text><text x="687" y="568">Sample record</text><rect x="926" y="555" width="71" height="19" rx="8" fill="#eaf8f2"/><text x="961" y="568" text-anchor="middle" font-weight="700" fill="#238a70">PROTECTED</text></g>
+    <text x="1100" y="620" text-anchor="end" font-family="Arial,sans-serif" font-size="8" fill="#9aa7b6">Conceptual project preview · sample interface data</text>
+  </g>
+</svg>

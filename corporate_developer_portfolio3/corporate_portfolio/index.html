@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#10243a" />
+  <script>
+    try {
+      if (localStorage.getItem('portfolio-theme') === 'dark') {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    } catch (error) {
+      // The portfolio works normally even when browser storage is unavailable.
+    }
+  </script>
+  <meta name="description" content="Sanjay R. — aspiring full-stack developer focused on Java, Spring Boot, MySQL, web development, and cloud technologies." />
+  <title>Sanjay R. | Software Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Sanjay R. home">
+        <span class="brand-mark">SR</span>
+        <span class="brand-name">Sanjay R.<small>Developer Portfolio</small></span>
+      </a>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a class="nav-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a>
+      </nav>
+
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false" title="Switch to dark theme">
+        <span class="theme-toggle-icon" aria-hidden="true">☾</span>
+        <span class="theme-toggle-label">Dark</span>
+      </button>
+
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section-pad">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="status-dot"></span> SOFTWARE DEVELOPMENT PORTFOLIO</p>
+          <h1>Turning ideas into <span>useful digital solutions.</span></h1>
+          <p class="hero-lead">I'm <strong>Sanjay R.</strong>, an aspiring full-stack developer interested in building reliable web applications with Java, Spring Boot, MySQL, and modern front-end technologies.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my projects <span aria-hidden="true">↗</span></a>
+            <a class="button button-secondary" href="#contact">Let's connect</a>
+          </div>
+          <div class="hero-meta">
+            <div><span class="meta-label">FOCUS</span><span>Full-Stack Development</span></div>
+            <div><span class="meta-label">CURRENTLY LEARNING</span><span>AWS & Cloud Fundamentals</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" aria-label="Developer profile card">
+          <div class="visual-orbit orbit-one"></div>
+          <div class="visual-orbit orbit-two"></div>
+          <div class="profile-card">
+            <div class="card-topline"><span class="tiny-dot"></span><span class="tiny-dot"></span><span class="tiny-dot"></span><span class="card-label">DEVELOPER PROFILE</span></div>
+            <div class="profile-monogram">SR</div>
+            <p class="profile-overline">HELLO, I'M</p>
+            <h2>Sanjay R.</h2>
+            <p class="profile-role">Aspiring Full-Stack Developer</p>
+            <div class="profile-divider"></div>
+            <div class="profile-stack-label">TECHNOLOGY INTERESTS</div>
+            <div class="stack-pills"><span>Java</span><span>Spring Boot</span><span>MySQL</span><span>HTML & CSS</span><span>AWS</span></div>
+            <div class="profile-footer"><span class="footer-icon">✳</span><span>Curious by nature. Building step by step.</span></div>
+          </div>
+          <div class="floating-note note-code"><span class="note-symbol">{ }</span><span><strong>Clean code</strong><small>Clear & maintainable</small></span></div>
+          <div class="floating-note note-cloud"><span class="cloud-icon">☁</span><span><strong>Cloud learner</strong><small>AWS fundamentals</small></span></div>
+        </div>
+      </div>
+      <div class="container hero-bottom"><span>SCROLL TO EXPLORE</span><span class="scroll-line"></span><span class="hero-bottom-note">Curiosity · Consistency · Growth</span></div>
+    </section>
+
+    <section class="trust-strip" aria-label="Core technology areas">
+      <div class="container trust-content">
+        <span>JAVA</span><i></i><span>SPRING BOOT</span><i></i><span>MYSQL</span><i></i><span>HTML · CSS · JS</span><i></i><span>AWS</span>
+      </div>
+    </section>
+
+    <section class="section section-pad" id="about">
+      <div class="container two-column">
+        <div class="section-heading reveal">
+          <p class="eyebrow">01 / ABOUT ME</p>
+          <h2>Building a strong foundation, <span>one project at a time.</span></h2>
+        </div>
+        <div class="about-copy reveal">
+          <p class="lead-paragraph">I enjoy learning how software works from the user interface to the database behind it.</p>
+          <p>My recent work has included a Medical Text Steganography web application using Java, Spring Boot, Thymeleaf, and MySQL, alongside front-end projects built with HTML, CSS, and JavaScript. I'm also developing my understanding of cloud computing and AWS.</p>
+          <p>I'm looking for opportunities to learn from experienced teams, contribute thoughtfully, and keep improving as a developer.</p>
+          <div class="about-facts">
+            <div><span class="fact-number">01</span><span class="fact-text">Practical project<br />experience</span></div>
+            <div><span class="fact-number">02</span><span class="fact-text">Continuous<br />learning mindset</span></div>
+            <div><span class="fact-number">03</span><span class="fact-text">Interest in full-stack<br />development</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted section-pad" id="skills">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">02 / TECHNICAL SKILLS</p>
+          <h2>Tools I use to <span>build and learn.</span></h2>
+          <p class="section-intro">A growing toolkit across application development, databases, and cloud fundamentals.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <div class="skill-icon icon-blue">&lt;/&gt;</div><h3>Programming</h3><p>Writing application logic and solving problems.</p><div class="skill-tags"><span>Java</span><span>Python</span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-icon icon-violet">▧</div><h3>Web Development</h3><p>Building responsive pages and web interfaces.</p><div class="skill-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Thymeleaf</span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-icon icon-green">⌘</div><h3>Back-End & Database</h3><p>Developing server-side features and data flows.</p><div class="skill-tags"><span>Spring Boot</span><span>MySQL</span><span>REST basics</span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-icon icon-orange">☁</div><h3>Cloud & Tools</h3><p>Learning deployment workflows and developer tools.</p><div class="skill-tags"><span>AWS fundamentals</span><span>Git</span><span>GitHub</span><span>IntelliJ IDEA</span></div>
+          </article>
+        </div>
+        <p class="skills-note">Skill levels are intentionally not shown as percentages. I prefer to discuss my hands-on experience and learning progress honestly.</p>
+      </div>
+    </section>
+
+    <section class="section section-pad" id="projects">
+      <div class="container">
+        <div class="section-heading project-heading reveal">
+          <div><p class="eyebrow">03 / SELECTED PROJECTS</p><h2>Work that turns <span>learning into practice.</span></h2></div>
+          <p class="section-intro">A selection of projects that demonstrate my interests in application development, user experience, and technology. Select any image to enlarge it and browse the project gallery.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card project-featured reveal">
+            <div class="project-art art-medical">
+              <button class="project-preview-trigger" type="button" data-preview-index="0" aria-label="View larger preview of Medical Text Steganography">
+                <img class="project-preview-image" src="images/medical-steganography.svg" alt="Medical Text Steganography dashboard concept showing encryption and hidden-message workflow" loading="lazy" />
+                <span class="preview-overlay"><span class="preview-overlay-icon" aria-hidden="true">↗</span><span>View project preview</span></span>
+              </button>
+              <span class="art-index">PROJECT 01</span>
+            </div>
+            <div class="project-body"><div class="project-type">FULL-STACK WEB APPLICATION</div><h3>Medical Text Steganography</h3><p>A web application concept for encrypting text with AES and concealing the encrypted message within cover text, with stored records managed through a database.</p><div class="project-tags"><span>Java</span><span>Spring Boot</span><span>MySQL</span><span>Thymeleaf</span><span>AES</span></div><div class="project-links"><a href="#contact" class="text-link">Discuss this project <span aria-hidden="true">↗</span></a><span class="project-status"><i></i> Academic project</span></div></div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-art art-birthday">
+              <button class="project-preview-trigger" type="button" data-preview-index="1" aria-label="View larger preview of Interactive Birthday Website">
+                <img class="project-preview-image" src="images/birthday-website.svg" alt="Birthday surprise website concept with navigation, celebration banner, and memory gallery" loading="lazy" />
+                <span class="preview-overlay"><span class="preview-overlay-icon" aria-hidden="true">↗</span><span>View project preview</span></span>
+              </button>
+              <span class="art-index">PROJECT 02</span>
+            </div>
+            <div class="project-body"><div class="project-type">FRONT-END DEVELOPMENT</div><h3>Interactive Birthday Website</h3><p>A personalized multi-page website featuring a photo gallery, connected navigation, animated hearts, and memorable messages.</p><div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive UI</span></div><div class="project-links"><a href="#contact" class="text-link">Discuss this project <span aria-hidden="true">↗</span></a><span class="project-status"><i></i> Front-end project</span></div></div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-art art-iot">
+              <button class="project-preview-trigger" type="button" data-preview-index="2" aria-label="View larger preview of Smart Manhole Monitoring">
+                <img class="project-preview-image" src="images/smart-manhole-iot.svg" alt="Smart Manhole Monitoring dashboard concept showing water level, gas, and tilt sensors" loading="lazy" />
+                <span class="preview-overlay"><span class="preview-overlay-icon" aria-hidden="true">↗</span><span>View project preview</span></span>
+              </button>
+              <span class="art-index">PROJECT 03</span>
+            </div>
+            <div class="project-body"><div class="project-type">IOT / EMBEDDED SYSTEMS</div><h3>Smart Manhole Monitoring</h3><p>An IoT project concept to monitor conditions such as water level, gas, and tilt, and alert responsible teams when readings indicate a potential hazard.</p><div class="project-tags"><span>IoT</span><span>ESP32</span><span>Sensors</span><span>Monitoring</span></div><div class="project-links"><a href="#contact" class="text-link">Discuss this project <span aria-hidden="true">↗</span></a><span class="project-status status-planned"><i></i> Project concept</span></div></div>
+          </article>
+        </div>
+        <p class="projects-note">Before publishing, add GitHub repository and live-demo links for projects that are ready to share. Label work-in-progress projects clearly.</p>
+      </div>
+    </section>
+
+    <section class="section section-muted section-pad" id="education">
+      <div class="container education-grid">
+        <div class="section-heading reveal"><p class="eyebrow">04 / EDUCATION & GROWTH</p><h2>Learning with <span>purpose.</span></h2><p class="section-intro">Strengthening fundamentals and building practical skills through projects and continued learning.</p></div>
+        <div class="timeline reveal">
+          <article class="timeline-item"><span class="timeline-dot"></span><div class="timeline-meta">EDUCATION</div><h3>B.Tech — Information Technology</h3><p class="timeline-place">Kings Engineering College</p><p>Coursework and projects in information technology, software development, and computing fundamentals.</p></article>
+          <article class="timeline-item"><span class="timeline-dot"></span><div class="timeline-meta">CURRENT LEARNING</div><h3>AWS & Cloud Fundamentals</h3><p class="timeline-place">Coursework in progress</p><p>Learning core cloud concepts, virtual machines, deployment basics, and cloud service fundamentals.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section section-pad" id="contact">
+      <div class="container contact-panel reveal">
+        <div class="contact-copy"><p class="eyebrow eyebrow-light">05 / CONTACT</p><h2>Let's build something <span>meaningful.</span></h2><p>I'm interested in entry-level opportunities where I can contribute, learn from a team, and grow as a software developer.</p></div>
+        <div class="contact-actions"><a class="button button-white" href="mailto:YOUR_EMAIL@example.com?subject=Portfolio%20enquiry">Email me <span aria-hidden="true">↗</span></a><p class="contact-hint">Replace the sample email and profile links before publishing.</p><div class="social-links"><a href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/YOUR_LINKEDIN_PROFILE/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div></div>
+      </div>
+    </section>
+  </main>
+
+
+  <div class="preview-modal" id="project-preview" aria-hidden="true">
+    <div class="preview-backdrop" data-close-preview></div>
+    <section class="preview-dialog" role="dialog" aria-modal="true" aria-labelledby="preview-title" aria-describedby="preview-description">
+      <button class="preview-close" type="button" aria-label="Close project preview" data-close-preview>×</button>
+      <div class="preview-visual"><img id="preview-image" src="images/medical-steganography.svg" alt="" /></div>
+      <div class="preview-details">
+        <p class="eyebrow">INTERACTIVE PROJECT GALLERY</p>
+        <h2 id="preview-title">Medical Text Steganography</h2>
+        <p id="preview-description">A preview of the project interface.</p>
+        <div id="preview-tags" class="project-tags" aria-label="Technologies used"></div>
+        <p class="preview-disclaimer">These are illustrative project visuals, not actual application screenshots. Replace them with screenshots of your finished application before sharing with recruiters.</p>
+        <div class="preview-controls">
+          <button type="button" class="preview-nav-button" id="preview-previous" aria-label="Previous project">← Previous</button>
+          <span id="preview-count" aria-live="polite">01 / 03</span>
+          <button type="button" class="preview-nav-button" id="preview-next" aria-label="Next project">Next →</button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer class="site-footer"><div class="container footer-content"><a class="footer-brand" href="#top">SR<span>.</span></a><p>Designed and built by Sanjay R. · <span id="year"></span></p><a class="back-top" href="#top">Back to top ↑</a></div></footer>
+</body>
+</html>
